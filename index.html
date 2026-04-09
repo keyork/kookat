@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="kookat — 散落在深空的几处坐标，几个认真做过的东西。"
+    />
+    <title>kookat</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Noto+Serif+SC:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="scene">
+      <div class="space" aria-hidden="true">
+        <div class="milkyway"></div>
+        <div class="nebula-shard nebula-a"></div>
+        <div class="nebula-shard nebula-b"></div>
+        <div class="nebula-shard nebula-c"></div>
+        <div class="nebula-shard nebula-d"></div>
+        <div class="rift"></div>
+        <div class="starfield-layer" data-star-layer data-depth="0.16" data-star-count="160"></div>
+        <div class="starfield-layer" data-star-layer data-depth="0.28" data-star-count="100"></div>
+        <div class="starfield-layer" data-star-layer data-depth="0.42" data-star-count="64"></div>
+        <div class="meteor-layer"></div>
+        <div class="cursor-scan"></div>
+      </div>
+
+      <main class="landing">
+        <header class="topline">
+          <p class="statusline">宇宙还在膨胀，你却停在了这里。</p>
+          <p class="manifest-note">每一个名字都是一枚坐标。<br />轻触，它才从暗处亮起来。</p>
+        </header>
+
+        <section class="orbit-stage" id="projects">
+          <section class="hero">
+            <p class="eyebrow">kookat · 深空中几处微小的光</p>
+            <h1 class="hero-title" aria-label="kookat">
+              <span class="hero-letter">k</span>
+              <span class="hero-eye" data-eye aria-hidden="true">
+                <span class="eye-dot" data-pupil></span>
+              </span>
+              <span class="hero-eye" data-eye aria-hidden="true">
+                <span class="eye-dot" data-pupil></span>
+              </span>
+              <span class="hero-letter">kat</span>
+            </h1>
+          </section>
+
+          <div class="project-grid" id="project-grid"></div>
+        </section>
+
+        <section class="detail-deck" aria-labelledby="detail-heading">
+          <div class="detail-intro">
+            <h2 class="detail-heading" id="detail-heading">散落在深空里的几处光</h2>
+            <p class="hero-copy">
+              这里没有引力。东西会自己飘，直到有人点它。
+            </p>
+            <p class="hero-copy hero-copy-soft">
+              一个小小的星系。坐标大致准确。
+            </p>
+          </div>
+
+          <div class="project-detail-list" id="project-detail-list"></div>
+        </section>
+
+        <p class="floor-whisper">这两只眼睛一直守在夜里，也陪你在此多停一会儿。</p>
+      </main>
+    </div>
+
+    <script src="./projects.config.js" defer></script>
+    <script src="./app.js" defer></script>
+  </body>
+</html>
