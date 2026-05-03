@@ -15,7 +15,7 @@ window.KOOKAT_CONFIG = {
     {
       name: "Mirror",
       description: "你很久没听见自己了。",
-      href: "https://www.baidu.com",
+      href: "https://mirror.kookat.icu/",
     },
     {
       name: "蓝色空间·时序薯盘",
