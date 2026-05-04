@@ -25,7 +25,7 @@ window.KOOKAT_CONFIG = {
     {
       name: "micro · era",
       description: "Stop brainstorming. Start evolving.",
-      href: "https://www.baidu.com",
+      href: "https://microera.kookat.icu/",
     },
     {
       name: "darkforest · resume · os",
